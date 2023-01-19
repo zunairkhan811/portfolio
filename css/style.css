@@ -19,11 +19,7 @@ html {
   --color-light-grey: #ebf0ee;
 }
 .container {
-  /* display: grid;
-    grid-template-rows: repeat(auto);
-    gap: 1rem;
-    margin: 0rem auto; */
-  width: 100rem;
+  width: 100vw;
   height: 291.5rem;
 }
 .header-section {
@@ -31,7 +27,7 @@ html {
   top: 0;
   z-index: 100;
   width: 100vw;
-  height: 4.1rem;
+  height: 5.2rem;
   background-color: #3c3a39;
 }
 .nav-bar {
@@ -49,7 +45,7 @@ html {
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #ffffff;
   margin: 1.5rem;
   margin-left: 6rem;
@@ -86,11 +82,11 @@ html {
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 100;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #ffffff;
 }
 .right-navbar ul li a i {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .right-navbar ul li a:hover {
@@ -207,10 +203,10 @@ html {
 }
 .illustration-header img {
   position: absolute;
-  z-index: 99;
-  top: -22rem;
-  left: 75rem;
-  width: 107rem;
+    z-index: 99;
+    top: -17rem;
+    left: 74rem;
+    width: 107rem;
 }
 
 .work-section {
@@ -239,7 +235,7 @@ html {
   font-family: "Crete Round";
   font-style: normal;
   font-weight: normal;
-  font-size: 4rem;
+  font-size: 3.8rem;
   display: flex;
   align-items: center;
   color: #091e42;
@@ -447,8 +443,8 @@ html {
     flex-direction: column;
     position: absolute;
     top: 231rem;
-    width: 90vw;
-    margin: auto 6rem;
+    width: 100vw;
+    margin: auto 0rem;
     height: 99.5rem;
     border: 0.4rem solid brown;
     background: #262626;
@@ -466,6 +462,7 @@ html {
   width: 42.7rem;
   height: 38.6rem;
   margin: 2rem 8rem;
+  margin-left: 16rem;
 }
 
 .about-me-heading h1 {
@@ -492,7 +489,7 @@ html {
 .about-me-container-box2{
   position: relative;
     top: 4rem;
-    left: 5rem;
+    left: 9rem;
 }
 
 .language-container {
@@ -701,4 +698,155 @@ html {
 .skill-list-items ul li::before {
   content: "";
 }
+
+.contact-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 330rem;
+  border-top: .1rem solid #fff;
+  width: 105.7rem;
+  height: 55rem;
+  margin: auto 15rem;
+  border: 0.1rem solid brown;
+}
+
+
+.contact-heading {
+  width: 32.7rem;
+  height: 21.6rem;
+  margin: auto;
+}
+
+.contact-heading h3 {
+  position: relative;
+  top: -4.7rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  margin: .3rem auto;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 32.7rem;
+  height: 33.0rem;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  width: 100%;
+  height: 4.8rem;
+  padding: .3rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #979493;
+  border: none;
+  border-bottom: .1rem solid #979493;
+  padding-left: .8rem;
+  margin: .8rem 0;
+}
+
+#textarea {
+  width: 100%;
+  height: 11.4rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #3c3a39;
+  border: none;
+  padding: .8rem;
+  background: #fbf8f7;
+  margin: .8rem 0;
+}
+
+.form-button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #fff;
+  padding: 1.2rem;
+  border: .1rem solid var(--primary-color);
+  background: var(--primary-color);
+  width: 13.1rem;
+  height: 4.8rem;
+  position: relative;
+  top: 1.8rem;
+  margin: auto;
+}
+
+.form-button:hover {
+  background: #ffbe90;
+  color: #3b2b2b;
+}
+
+.footer-container {
+  position: absolute;
+  top: 385rem;
+  width: 100vw;
+  height: 7.2rem;
+  /* border-top: .1rem solid #979493; */
+}
+
+.footer-icon-list {
+  width: 30.0rem;
+  margin: 1.8rem auto;
+}
+
+.footer-icon-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-icon {
+  width: 3.4rem;
+  height: 1.6rem;
+  font-size: 2.5rem;
+  color: #505f79;
+  margin-right: 1.3rem;
+}
+
+.footer-icon:hover {
+  color: #347dfa;
+}
+
+.footer-vectorimg {
+  width: 3.4rem;
+  height: 2.6rem;
+  cursor: pointer;
+  font-size: 2.0rem;
+}
+
+.footer-vectorimg:hover {
+  filter:
+    invert(35%) sepia(21%) saturate(653%) hue-rotate(179deg)
+    brightness(93%) contrast(84%);
+}
+
+/* .border-line {
+  border-top: .4rem solid #1c1a19;
+  width: 13.4rem;
+  height: .5rem;
+  background: #0d151e;
+  border-radius: 1.0rem;
+  margin: auto;
+} */
 
