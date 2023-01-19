@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-font-family: "Inter", sans-serif;
+  --primary-color: #ff6b00;
+  --color-secondary: #ec5242;
+  --color-tertiary: #d3d3d3;
+  --color-white: #fff;
+  --color-grey: #585858;
+  --color-light-grey: #ebf0ee;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    height: 291.5rem;
+  }
+.header-section {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 4.1rem;
+  background-color: #3c3a39;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.left-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-navbar a,
+.left-navbar i {
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 1.5rem;
+  margin-left: 6rem;
+}
+.left-navbar a {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.left-navbar a i {
+  display: none;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.left-navbar a:hover {
+  color: blueviolet;
+}
+.right-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-navbar ul {
+  display: flex;
+  list-style: none;
+}
+.right-navbar ul li {
+  padding: 1rem 1.2rem;
+}
+.right-navbar ul li a {
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.right-navbar ul li a i {
+  font-size: 1rem;
+}
+
+.right-navbar ul li a:hover {
+  color: blueviolet;
+}
+.headline-section{
+    display: flex;
+    position: absolute;
+    top: 4.1rem;
+    width: 100vw;
+    height: 65rem;
+    background: #1C1A19;
+}
+.headline-container{
+    display: flex;
+    width: fit-content;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    /* width: 50vw; */
+    height: 48rem;
+    margin: 3rem 0rem;
+}
+.heads-container{
+    margin-left: 5rem;
+}
+.heading-1 {
+    width: 32.7rem;
+    height: 12.4rem;
+  }
+  
+  .heading-1 h1 {
+    font-family: "Crete Round", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.6rem;
+    color: var(--primary-color);
+    line-height: 6.4rem;
+  }
+
+  .heading-2 {
+    width: 32.7rem;
+    height: 2.7rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.9rem;
+  }
+  
+  .heading-2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #fff5e1;
+    line-height: 3.2rem;
+  }
+  
+  .paragraph {
+    width: 32.7rem;
+    height: 12.3rem;
+  }
+  
+  .paragraph p {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #e1c9c9;
+  }
+  .social-icons-container {
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+    height: 17rem;
+    margin: 0rem 0rem;
+    margin-left: 1.2rem;
+    margin-bottom: 5rem;
+    padding: 0.7rem;
+  }
+  
+  .social-icons-container ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  .social-icons-container ul li{
+    margin: 1rem 1rem;
+  }
+  .vectorimg {
+    display: flex;
+    width: 2rem;
+    height: 1.6rem;
+    cursor: pointer;
+    font-size: 2rem;
+    /* margin: 1rem 0rem; */
+  }
+  
+  .vectorimg:hover {
+    filter:
+      invert(24%) sepia(88%) saturate(3738%) hue-rotate(263deg)
+      brightness(88%) contrast(102%);
+  }
+  
+  .social-icons {
+    width: 3.4rem;
+    height: 1.6rem;
+    color: #dbd8d7;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .social-icons:hover {
+    color: #8a2be2;
+  }
+  .illustration-header img{
+    position: absolute;
+    z-index: 99;
+    top: -20rem;
+    left: 78rem;
+    width: 100rem;
+  }
+
+  .work-section {
+    width: 120.4rem;
+height: 180.5rem;
+  }
+
+  .my-recentwork-container{
+    display: flex;
+    
+  }
+  .box-1{
+    width: 31.5rem;
+height: 5.2rem;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 4.0rem;
+line-height: 5.2rem;
+display: flex;
+align-items: center;
+color: #091E42;
+  }
+  .box-1-line{
+    width: 794px;
+height: 0px;
+
+border: 1px solid #212121
+  }
