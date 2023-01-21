@@ -329,7 +329,7 @@ html {
 }
 
 .button-2:hover {
-  background: #FFF5E1;
+  background: #fff5e1;
   color: #212121;
 }
 
@@ -347,20 +347,9 @@ html {
   width: 32.7rem;
   height: 38.6rem;
   margin: 0.2rem auto;
-  background: url(../images/maskgroup.png); 
+  background: url(../images/maskgroup.png);
   transition: all 0.2s ease-in-out;
-
 }
-
-.boxes-3 .text-box:hover,.boxes-4 .text-box:hover,.boxes-5 .text-box:hover,.boxes-6 .text-box:hover,.boxes-7 .text-box:hover,.boxes-8 .text-box:hover{
-  display: none;
-}
-.boxes-3:hover,.boxes-4:hover,.boxes-5:hover,.boxes-6:hover,.boxes-7:hover,.boxes-8:hover{
-  flex-direction: column-reverse;
-}
-
-
-
 
 .boxes-4,
 .boxes-7 {
@@ -417,6 +406,24 @@ html {
   margin: 0.4rem 0.7rem;
 }
 
+.boxes-3 .text-box:hover,
+.boxes-4 .text-box:hover,
+.boxes-5 .text-box:hover,
+.boxes-6 .text-box:hover,
+.boxes-7 .text-box:hover,
+.boxes-8 .text-box:hover {
+  display: none;
+}
+
+.boxes-3:hover,
+.boxes-4:hover,
+.boxes-5:hover,
+.boxes-6:hover,
+.boxes-7:hover,
+.boxes-8:hover {
+  flex-direction: column-reverse;
+}
+
 .text-box-buttons {
   margin: auto 0.7rem;
   width: 100%;
@@ -457,7 +464,7 @@ html {
 }
 
 .button-4:hover {
-  background: #FFF5E1;
+  background: #fff5e1;
   color: #212121;
 }
 
@@ -818,7 +825,7 @@ html {
 }
 
 .form-button:hover {
-  background: #FFF5E1;
+  background: #fff5e1;
   color: #3b2b2b;
 }
 
@@ -874,9 +881,7 @@ html {
   color: blueviolet;
 }
 
-
-
-@media screen and (min-width: 280px){
+@media screen and (min-width: 280px) {
   html {
     font-size: 37%;
   }
@@ -892,6 +897,7 @@ html {
     height: max-content;
     overflow-y: scroll;
   }
+
   .right-navbar {
     display: none;
   }
@@ -922,7 +928,8 @@ html {
   .menu:hover {
     background-color: blueviolet;
   }
-  .header-section{
+
+  .header-section {
     width: 100%;
   }
 
@@ -938,7 +945,8 @@ html {
     position: relative;
     right: 3rem;
   }
-  .box-1 h1{
+
+  .box-1 h1 {
     font-size: 4rem;
   }
 
@@ -1003,15 +1011,16 @@ html {
     top: -9rem;
     width: 41.2rem;
   }
+
   .boxes-3,
-    .boxes-4,
-    .boxes-5,
-    .boxes-6,
-    .boxes-7,
-    .boxes-8 {
-      opacity: 1;
-      background-size: cover;
-    }
+  .boxes-4,
+  .boxes-5,
+  .boxes-6,
+  .boxes-7,
+  .boxes-8 {
+    opacity: 1;
+    background-size: cover;
+  }
 
   .about-me {
     top: 437rem;
@@ -1026,11 +1035,13 @@ html {
   .about-me-container-box1 {
     margin-left: 3rem;
   }
-.about-me-container-box2{
-  position: relative;
+
+  .about-me-container-box2 {
+    position: relative;
     top: 1rem;
-    left: 0rem;
-}
+    left: 0;
+  }
+
   .about-me-container-box2 img {
     width: 92%;
     height: 91%;
@@ -1085,85 +1096,102 @@ html {
     border-radius: 1rem;
     margin: auto;
   }
-  
 }
 
-@media screen and (min-width: 360px){
-  .container{
+@media screen and (min-width: 360px) {
+  .container {
     width: 360px;
   }
-  .work-section{
+
+  .work-section {
     left: 5rem;
   }
-  .about-me{
+
+  .about-me {
     height: 181rem;
   }
-  .contact-section{
+
+  .contact-section {
     top: 630rem;
     left: 7rem;
   }
-  .footer-container{
+
+  .footer-container {
     top: 690rem;
   }
 }
-@media screen and (min-width: 375px){
-  .container{
+
+@media screen and (min-width: 375px) {
+  .container {
     width: 375px;
   }
-  html{
+
+  html {
     font-size: 45%;
   }
-  .contact-section{
+
+  .contact-section {
     left: 2rem;
   }
-  .work-section{
+
+  .work-section {
     left: 3rem;
   }
 }
-@media screen and (min-width: 390px){
-  .container{
+
+@media screen and (min-width: 390px) {
+  .container {
     width: 390px;
   }
 }
-@media screen and (min-width: 393px){
-  .container{
+
+@media screen and (min-width: 393px) {
+  .container {
     width: 393px;
   }
 }
-@media screen and (min-width: 412px){
-.container{
-  width:412px ;
+
+@media screen and (min-width: 412px) {
+  .container {
+    width: 412px;
+  }
+
+  html {
+    font-size: 48%;
+  }
 }
-html{
-  font-size: 48%;
-}
-}
-@media screen and (min-width: 414px){
-  .container{
+
+@media screen and (min-width: 414px) {
+  .container {
     width: 414px;
   }
 }
-@media screen and (min-width: 540px){
-  .container{
+
+@media screen and (min-width: 540px) {
+  .container {
     width: 540px;
   }
-  html{
-font-size: 60%;
+
+  html {
+    font-size: 60%;
   }
-  .contact-section{
+
+  .contact-section {
     left: 4rem;
   }
 }
-@media screen and (min-width: 768px){
-  .container{
+
+@media screen and (min-width: 768px) {
+  .container {
     width: 768px;
     overflow-x: hidden;
     height: fit-content;
   }
-  html{
+
+  html {
     font-size: 48%;
   }
-  
+
   .nav-bar {
     display: flex;
   }
@@ -1173,7 +1201,8 @@ font-size: 60%;
     align-items: center;
     justify-content: space-between;
   }
-  .right-navbar{
+
+  .right-navbar {
     display: flex;
     width: 50%;
     justify-content: center;
@@ -1194,7 +1223,8 @@ font-size: 60%;
   .menu:hover {
     background-color: blueviolet;
   }
-  .header-section{
+
+  .header-section {
     width: 100%;
   }
 
@@ -1209,9 +1239,10 @@ font-size: 60%;
     margin: auto 0;
     position: relative;
     right: 3rem;
-    top:-4rem
+    top: -4rem;
   }
-  .box-1 h1{
+
+  .box-1 h1 {
     font-size: 4rem;
   }
 
@@ -1241,17 +1272,15 @@ font-size: 60%;
 
   .box-1-line {
     width: 53%;
-    margin-top: 0rem;
+    margin-top: 0;
     align-items: center;
     justify-content: center;
-  
   }
 
   .my-recentwork-container {
     flex-direction: row;
     width: 100%;
     justify-content: left;
-    
   }
 
   .box-1 {
@@ -1266,7 +1295,6 @@ font-size: 60%;
     width: 89.2rem;
   }
 
-
   .remaining-boxes-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -1276,42 +1304,55 @@ font-size: 60%;
     top: -9rem;
     width: 41.2rem;
   }
-  .boxes-3,.boxes-4,.boxes-5,.boxes-6,.boxes-7,.boxes-8{
+
+  .boxes-3,
+  .boxes-4,
+  .boxes-5,
+  .boxes-6,
+  .boxes-7,
+  .boxes-8 {
     width: 27.7rem;
   }
-  .about-me{
-    top:228rem;
+
+  .about-me {
+    top: 228rem;
     height: 102rem;
   }
+
   .about-me-container {
     flex-direction: row;
     top: 2rem;
   }
- .about-me-container-box1{
-  margin-left: 8rem;
- }
- .about-me-paragraph{
-  width: 38.6rem;
- }
- .about-me-container-box2 img{
-  left: 4rem;
-  top: 0rem;
- }
-  
+
+  .about-me-container-box1 {
+    margin-left: 8rem;
+  }
+
+  .about-me-paragraph {
+    width: 38.6rem;
+  }
+
+  .about-me-container-box2 img {
+    left: 4rem;
+    top: 0;
+  }
+
   .language-container {
     flex-direction: row;
     width: 83.2rem;
-    top: 0rem;
-    
+    top: 0;
   }
-  .language-heading{
-    top:-4rem
+
+  .language-heading {
+    top: -4rem;
   }
-  .framework-heading{
-    top:-1.3rem;
+
+  .framework-heading {
+    top: -1.3rem;
     left: 7rem;
   }
-  .skills-heading{
+
+  .skills-heading {
     top: -2.9rem;
     left: 13rem;
   }
@@ -1329,64 +1370,76 @@ font-size: 60%;
   .border-line {
     display: none;
   }
-
 }
 
-@media screen and (min-width: 820px){
-  .container{
+@media screen and (min-width: 820px) {
+  .container {
     width: 820px;
     overflow-x: hidden;
     height: fit-content;
   }
-  html{
+
+  html {
     font-size: 55%;
   }
-  .work-section{
+
+  .work-section {
     left: -6rem;
   }
-  .my-recentwork-container{
+
+  .my-recentwork-container {
     justify-content: center;
   }
 }
-@media screen and (min-width: 912px){
-  .container{
+
+@media screen and (min-width: 912px) {
+  .container {
     width: 912px;
     overflow-x: hidden;
     height: fit-content;
   }
-  .remaining-boxes-container{
+
+  .remaining-boxes-container {
     right: -9rem;
   }
-  .multipost-boxes-container{
+
+  .multipost-boxes-container {
     width: 103.2rem;
   }
 }
-@media screen and (min-width: 1024px){
-  .container{
+
+@media screen and (min-width: 1024px) {
+  .container {
     width: 100vw;
     overflow-x: hidden;
     height: fit-content;
   }
-  html{
+
+  html {
     font-size: 62.5%;
   }
-  .illustration-header img{
+
+  .illustration-header img {
     top: -19rem;
     left: 47rem;
   }
-  .footer-container{
+
+  .footer-container {
     top: 386rem;
   }
 }
-@media screen and (min-width: 1280px){
-  html{
+
+@media screen and (min-width: 1280px) {
+  html {
     font-size: 80%;
   }
-  .illustration-header img{
+
+  .illustration-header img {
     top: -19rem;
     left: 47rem;
   }
-  .footer-container{
+
+  .footer-container {
     top: 386rem;
   }
 }
