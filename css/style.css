@@ -56,6 +56,10 @@ html {
   margin-left: 6rem;
 }
 
+.left-navbar a {
+  transition: all 1s ease-in-out;
+}
+
 .right-navbar ul li a {
   text-decoration: none;
   font-family: var(--primary-font-family);
@@ -348,7 +352,6 @@ html {
   height: 38.6rem;
   margin: 0.2rem auto;
   background: url(../images/maskgroup.png);
-  transition: all 0.2s ease-in-out;
 }
 
 .boxes-4,
@@ -857,6 +860,7 @@ html {
 
 .left-navbar a:hover {
   color: blueviolet;
+  transform: rotate(360deg);
 }
 
 .right-navbar ul li a:hover {
@@ -1392,7 +1396,7 @@ html {
 
 @media screen and (min-width: 1024px) {
   .container {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     height: fit-content;
   }
