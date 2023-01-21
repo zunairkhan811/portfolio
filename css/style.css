@@ -55,6 +55,12 @@ html {
   margin: 1.5rem;
   margin-left: 6rem;
 }
+.left-navbar a{
+  transition: all 1s ease-in-out;
+}
+.left-navbar a:hover{
+  transform: rotate(360deg);
+}
 
 .right-navbar ul li a {
   text-decoration: none;
@@ -348,7 +354,6 @@ html {
   height: 38.6rem;
   margin: 0.2rem auto;
   background: url(../images/maskgroup.png);
-  transition: all 0.2s ease-in-out;
 }
 
 .boxes-4,
@@ -404,24 +409,6 @@ html {
   line-height: 2.4rem;
   color: #fff;
   margin: 0.4rem 0.7rem;
-}
-
-.boxes-3 .text-box:hover,
-.boxes-4 .text-box:hover,
-.boxes-5 .text-box:hover,
-.boxes-6 .text-box:hover,
-.boxes-7 .text-box:hover,
-.boxes-8 .text-box:hover {
-  display: none;
-}
-
-.boxes-3:hover,
-.boxes-4:hover,
-.boxes-5:hover,
-.boxes-6:hover,
-.boxes-7:hover,
-.boxes-8:hover {
-  flex-direction: column-reverse;
 }
 
 .text-box-buttons {
@@ -1410,7 +1397,7 @@ html {
 
 @media screen and (min-width: 1024px) {
   .container {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     height: fit-content;
   }
