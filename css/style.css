@@ -406,23 +406,7 @@ html {
   margin: 0.4rem 0.7rem;
 }
 
-.boxes-3 .text-box:hover,
-.boxes-4 .text-box:hover,
-.boxes-5 .text-box:hover,
-.boxes-6 .text-box:hover,
-.boxes-7 .text-box:hover,
-.boxes-8 .text-box:hover {
-  display: none;
-}
 
-.boxes-3:hover,
-.boxes-4:hover,
-.boxes-5:hover,
-.boxes-6:hover,
-.boxes-7:hover,
-.boxes-8:hover {
-  flex-direction: column-reverse;
-}
 
 .text-box-buttons {
   margin: auto 0.7rem;
