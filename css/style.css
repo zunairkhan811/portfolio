@@ -55,11 +55,9 @@ html {
   margin: 1.5rem;
   margin-left: 6rem;
 }
-.left-navbar a{
+
+.left-navbar a {
   transition: all 1s ease-in-out;
-}
-.left-navbar a:hover{
-  transform: rotate(360deg);
 }
 
 .right-navbar ul li a {
@@ -862,6 +860,7 @@ html {
 
 .left-navbar a:hover {
   color: blueviolet;
+  transform: rotate(360deg);
 }
 
 .right-navbar ul li a:hover {
