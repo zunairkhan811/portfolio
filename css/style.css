@@ -1412,6 +1412,7 @@ html {
 
   .footer-container {
     top: 386rem;
+    border-top: 1px solid #DFE1E6;;
   }
 }
 
