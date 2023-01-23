@@ -67,7 +67,7 @@ This project has been made using html and css only according to project requirem
 
 <!-- Note: Right now Application hasn't been Deployed yet. In future if this will be deployed,
 Deployed Link will update here -->
-- [Live Demo Link]  <a href="#"><button type="button" color:red background: white>Will be Updated Soon</button></a>
+- [Live Demo Link]  <a href="https://zunairkhan811.github.io/Zunair-Desktop-Responsive-Portfolio/"><button type="button" color:red background: white>Visit Site</button></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
