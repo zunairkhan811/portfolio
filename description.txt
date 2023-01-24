@@ -1,0 +1,15 @@
+Portfolio: ACCESSIBILITY
+
+- Color contrast --- The following lines have a contrast ratio of less than 4.5 
+
+1. https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio/blob/2239838e50998adc9ecb89837119058d66d02895/index.html#L147-L279
+2. https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio/blob/2239838e50998adc9ecb89837119058d66d02895/index.html#L102-L104
+3. https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio/blob/2239838e50998adc9ecb89837119058d66d02895/index.html#L304-L306
+4. https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio/blob/2239838e50998adc9ecb89837119058d66d02895/index.html#L91-L96
+
+
+- Resize --- At 105% zoom text works fine but above this 105% all texts Overlap each other.
+- Interaction --- no issues found.
+- Moving content ---no issues found.
+- Multimedia --- no issues found.
+- The basic structure of the page --- no issues found.
