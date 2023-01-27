@@ -27,8 +27,11 @@
 
 
 
-**[Zunair-Desktop-Responsive-Portfolio]** is a project to demonstrate ability in making and cloning the
-the Responsive version of website by adding linters and adding styling the html file using css stylesheet.
+**[Zunair-Desktop-Responsive-Portfolio]** is a project of making a portfolio website to showcase 
+my skills to  employers that i can make a responsive website using html, css and Javascript.
+
+
+- [Video Link about Project] <a href=" https://www.loom.com/share/3b6c4b0bef504bdc9a970238c2a1de3a"><button type="button" color:red background: white>Click Here</button></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
