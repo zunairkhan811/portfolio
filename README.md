@@ -31,7 +31,7 @@
 my skills to  employers that i can make a responsive website using html, css and Javascript.
 
 
-- [Video Link about Project] <a href=" https://www.loom.com/share/3b6c4b0bef504bdc9a970238c2a1de3a"><button type="button" color:red background: white>Click Here</button></a>
+- [Video Link about Project] <a href="https://www.loom.com/share/3b6c4b0bef504bdc9a970238c2a1de3a"><button type="button" color:red background: white>Click Here</button></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
