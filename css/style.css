@@ -645,7 +645,7 @@ html {
   font-size: 2.2rem;
   margin: 0.5rem 0;
   margin-right: 4rem;
-  align-items: left;
+  align-items: flex-start;
   line-height: 4.3rem;
   color: #fff;
 }
@@ -1171,7 +1171,7 @@ html {
   .container {
     width: 768px;
     overflow-x: hidden;
-    height: fit-content;
+    height: auto;
   }
 
   html {
@@ -1362,7 +1362,7 @@ html {
   .container {
     width: 820px;
     overflow-x: hidden;
-    height: fit-content;
+    height: auto;
   }
 
   html {
@@ -1382,7 +1382,7 @@ html {
   .container {
     width: 912px;
     overflow-x: hidden;
-    height: fit-content;
+    height: auto;
   }
 
   .remaining-boxes-container {
@@ -1398,7 +1398,7 @@ html {
   .container {
     width: 100%;
     overflow-x: hidden;
-    height: fit-content;
+    height: auto;
   }
 
   html {
