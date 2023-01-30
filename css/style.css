@@ -965,13 +965,11 @@ html {
     top: 9%;
     right: 7%;
     cursor: pointer;
-
-    /* transition: 0.4s ease-in-out; */
   }
 
   .change-wrap {
     top: 18px;
-    left: 363px;
+    left: 244px;
   }
 
   .menu {
@@ -1157,6 +1155,10 @@ html {
     width: 360px;
   }
 
+  .change-wrap {
+    left: 318px;
+  }
+
   .work-section {
     left: 5rem;
   }
@@ -1184,6 +1186,10 @@ html {
     font-size: 45%;
   }
 
+  .change-wrap {
+    left: 336px;
+  }
+
   .contact-section {
     left: 2rem;
   }
@@ -1196,6 +1202,10 @@ html {
 @media screen and (min-width: 390px) {
   .container {
     width: 390px;
+  }
+
+  .change-wrap {
+    left: 347px;
   }
 }
 
@@ -1213,11 +1223,19 @@ html {
   html {
     font-size: 48%;
   }
+
+  .change-wrap {
+    left: 365px;
+  }
 }
 
 @media screen and (min-width: 414px) {
   .container {
     width: 414px;
+  }
+
+  .change-wrap {
+    left: 365px;
   }
 }
 
@@ -1228,6 +1246,10 @@ html {
 
   html {
     font-size: 60%;
+  }
+
+  .change-wrap {
+    left: 483px;
   }
 
   .contact-section {
