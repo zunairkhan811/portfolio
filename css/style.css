@@ -25,7 +25,8 @@ html {
 }
 
 .header-section {
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
@@ -887,6 +888,65 @@ html {
     display: none;
   }
 
+  .change-rightnavbar ul li a {
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3.2rem;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+  }
+
+  .change-rightnavbar {
+    width: 85%;
+    display: block;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    height: 50vh;
+    transition: 0.5s ease-in-out;
+  }
+
+  .change-rightnavbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .change-rightnavbar ul li {
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .change-rightnavbar ul li:last-child {
+    display: none;
+    border: none;
+  }
+
+  .change-leftnavbar-logo {
+    display: none;
+  }
+
+  #bar1 {
+    transform: translateY(-2px);
+  }
+
+  .change-wrap #bar1 {
+    transform: translateY(-1px) rotate(-45deg);
+  }
+
+  .change-wrap #bar2 {
+    display: none;
+  }
+
+  #bar3 {
+    transform: translateY(2px);
+  }
+
+  .change-wrap #bar3 {
+    transform: translateY(-4px) rotate(45deg);
+  }
+
   .nav-bar {
     display: flex;
     flex-direction: column;
@@ -921,14 +981,6 @@ html {
     display: block;
     border-radius: 5px;
     transition: 0.5s ease-in-out;
-  }
-
-  #bar1 {
-    transform: translateY(-2px);
-  }
-
-  #bar3 {
-    transform: translateY(2px);
   }
 
   .header-section {
