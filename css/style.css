@@ -903,7 +903,7 @@ html {
     display: block;
     margin-top: 4rem;
     margin-left: 3rem;
-    height: 50vh;
+    height: 99vh;
     transition: 0.5s ease-in-out;
   }
 
@@ -933,6 +933,8 @@ html {
 
   .change-wrap #bar1 {
     transform: translateY(-1px) rotate(-45deg);
+    background: #979493;
+    font-weight: lighter;
   }
 
   .change-wrap #bar2 {
@@ -945,6 +947,8 @@ html {
 
   .change-wrap #bar3 {
     transform: translateY(-4px) rotate(45deg);
+    background: #979493;
+    font-weight: lighter;
   }
 
   .nav-bar {
