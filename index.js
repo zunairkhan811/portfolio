@@ -93,7 +93,10 @@ for (let i = 0; i < seeprojectbutton4.length; i++) {
   });
 }
 
-const sectionsArray = ['portfolioId', 'aboutId', 'contactId'];
+const portfolioId = document.querySelector('#portfolioicon');
+const aboutId = document.querySelector('#abouticon');
+const contactId = document.querySelector('#contacticon');
+const sectionsArray = [portfolioId, aboutId, contactId];
 for (let i = 0; i < sectionsArray.length; i++) {
   sectionsArray[i].addEventListener('click', () => {
     wrapId.classList.remove('change-wrap');
