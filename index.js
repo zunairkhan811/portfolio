@@ -1,7 +1,6 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-plusplus */
 const portfolio = document.querySelector('#portfolio');
-const seeprojectbutton4 = document.getElementsByClassName('button-4');
 const navbar = document.querySelector('.nav-bar');
 const headlinesection = document.querySelector('.headline-section');
 const aboutme = document.querySelector('.about-me');
@@ -18,18 +17,82 @@ wrapId.addEventListener('click', () => {
   rightNavebarId.classList.toggle('change-rightnavbar');
 });
 
-const popupArray = [{
-  Name: 'Keeping track of hundreds  of components website',
-  Name1: 'Multi Post Stories',
-  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  featureimage: './images/popupimage.png',
-  technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-  linktoliveversion: '#',
-  linktosource: '#',
-}];
+const popupArray = [
+  {
+    id: 'card1',
+    Name: 'Multi Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  },
+  {
+    id: 'card2',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  },
+  {
+    id: 'card3',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  },
+  {
+    id: 'card4',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  },
+  {
+    id: 'card5',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  },
+  {
+    id: 'card6',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  }, {
+    id: 'card7',
+    Name: 'Profesional Art Printing Data',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featureimage: './images/popupimage.png',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    linktoliveversion: '#',
+    linktosource: '#',
+  }];
 
-for (let i = 0; i < seeprojectbutton4.length; i++) {
-  seeprojectbutton4[i].addEventListener('click', () => {
+const card1 = document.querySelector('#card0');
+const card2 = document.querySelector('#card1');
+const card3 = document.querySelector('#card2');
+const card4 = document.querySelector('#card3');
+const card5 = document.querySelector('#card4');
+const card6 = document.querySelector('#card5');
+const card7 = document.querySelector('#card6');
+
+const cardArray = [card1, card2, card3, card4, card5, card6, card7];
+
+for (let i = 0; i < cardArray.length; i++) {
+  cardArray[i].addEventListener('click', () => {
     portfolio.classList.toggle('active');
     navbar.classList.toggle('active');
     headlinesection.classList.toggle('active');
@@ -68,9 +131,26 @@ for (let i = 0; i < seeprojectbutton4.length; i++) {
       </section>
      </div>`;
       const heading1 = document.querySelector('#pop-up-heading');
-      const screenwidth = screen.width;
-      if (screenwidth < 768) {
-        heading1.innerHTML = `${items.Name1}`;
+      if (cardArray[i] === card1) {
+        heading1.innerHTML = `${popupArray[0].Name}`;
+      }
+      if (cardArray[i] === card2) {
+        heading1.innerHTML = `${popupArray[1].Name}`;
+      }
+      if (cardArray[i] === card3) {
+        heading1.innerHTML = `${popupArray[2].Name}`;
+      }
+      if (cardArray[i] === card4) {
+        heading1.innerHTML = `${popupArray[3].Name}`;
+      }
+      if (cardArray[i] === card5) {
+        heading1.innerHTML = `${popupArray[4].Name}`;
+      }
+      if (cardArray[i] === card6) {
+        heading1.innerHTML = `${popupArray[5].Name}`;
+      }
+      if (cardArray[i] === card7) {
+        heading1.innerHTML = `${popupArray[6].Name}`;
       }
     });
 
