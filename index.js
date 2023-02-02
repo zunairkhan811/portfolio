@@ -18,15 +18,6 @@ wrapId.addEventListener('click', () => {
   rightNavebarId.classList.toggle('change-rightnavbar');
 });
 
-const sectionsArray = ['portfolioId', 'aboutId', 'contactId'];
-for (let i = 0; i < sectionsArray.length; i++) {
-  sectionsArray[i].addEventListener('click', () => {
-    wrapId.classList.remove('change-wrap');
-    logoId.classList.remove('change-leftnavbar-logo');
-    rightNavebarId.classList.remove('change-rightnavbar');
-  });
-}
-
 const popupArray = [{
   Name: 'Keeping track of hundreds  of components website',
   Name1: 'Multi Post Stories',
@@ -45,11 +36,12 @@ for (let i = 0; i < seeprojectbutton4.length; i++) {
     aboutme.classList.toggle('active');
     contactsection.classList.toggle('active');
     footercontainer.classList.toggle('active');
+    // eslint-disable-next-line no-unused-vars
     popupArray.forEach((items, index) => {
-     const container = document.querySelector('.container');
-     const section = document.createElement('section');
-     container.appendChild(section);
-     section.innerHTML = `<div class="pop-up-container">
+      const container = document.querySelector('.container');
+      const section = document.createElement('section');
+      container.appendChild(section);
+      section.innerHTML = `<div class="pop-up-container">
       <header class="pop-up-header">
         <div class="pop-up-heading">
           <h2 id="pop-up-heading">${items.Name}</h2>
@@ -75,14 +67,13 @@ for (let i = 0; i < seeprojectbutton4.length; i++) {
         </div>
       </section>
      </div>`;
-     const heading1 = document.querySelector('#pop-up-heading');
-     let screenwidth = screen.width;
-     if(screenwidth < 768){
-       heading1.innerHTML=`${items.Name1}`
-     }
-      
-    })
-    
+      const heading1 = document.querySelector('#pop-up-heading');
+      const screenwidth = screen.width;
+      if (screenwidth < 768) {
+        heading1.innerHTML = `${items.Name1}`;
+      }
+    });
+
     const popupcontainer = document.querySelector('.pop-up-container');
     const closebtn = document.querySelector('.close-btn');
     popupcontainer.classList.toggle('pop-up-active');
@@ -99,5 +90,14 @@ for (let i = 0; i < seeprojectbutton4.length; i++) {
       const container = document.querySelector('.container');
       container.removeChild(container.lastElementChild);
     });
+  });
+}
+
+const sectionsArray = ['portfolioId', 'aboutId', 'contactId'];
+for (let i = 0; i < sectionsArray.length; i++) {
+  sectionsArray[i].addEventListener('click', () => {
+    wrapId.classList.remove('change-wrap');
+    logoId.classList.remove('change-leftnavbar-logo');
+    rightNavebarId.classList.remove('change-rightnavbar');
   });
 }
