@@ -123,7 +123,7 @@ for (let i = 0; i < cardArray.length; i++) {
         <div class="pop-up-details">
           <p>${items.description}</p>
           <div class="pop-up-details-btn-container">
-            <a href="${items.linktoliveversion}"><button class="pop-up-details-btn">See Live <span><img src="./images/icon-see-live.png" class='icon-see-live-img' alt="iconseeimage"></span></button></a>
+            <a href="${items.linktoliveversion}"><button class="pop-up-details-btn">See Live <span><img src="./images/Icon-see-live.png" class='icon-see-live-img' alt="iconseeimage"></span></button></a>
           <a href="${items.linktosource}"><button class="pop-up-details-btn">See Source <span><i class="fa-brands fa-github"></i></span></button></a>
           </div>
           
