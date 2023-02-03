@@ -24,7 +24,13 @@ html {
   height: 291.5rem;
 }
 
-.error{
+.active {
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.error {
   display: block;
   margin: auto;
   font-family: "Inter", sans-serif;
@@ -32,12 +38,6 @@ html {
   padding: 2px;
   color: red;
   visibility: hidden;
-}
-
-.active {
-  filter: blur(10px);
-  pointer-events: none;
-  user-select: none;
 }
 
 .pop-up-container {
@@ -933,6 +933,7 @@ html {
 }
 
 .form-button {
+  display: block;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;

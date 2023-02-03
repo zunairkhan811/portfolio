@@ -161,7 +161,6 @@ for (let i = 0; i < sectionsArray.length; i++) {
   });
 }
 
-
 function validateForm(e) {
   const email = document.querySelector('#email');
 
@@ -172,6 +171,5 @@ function validateForm(e) {
     e.stopPropagation();
   }
 }
-const form3 = document.forms['form2'];
+const form3 = document.forms.form2;
 form3.addEventListener('submit', validateForm);
-
