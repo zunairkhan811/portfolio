@@ -166,16 +166,3 @@ for (let i = 0; i < sectionsArray.length; i++) {
   });
 }
 
-// function validateEmail() {
-//   let email = document.querySelector('#text').value;
-//   let regex = /^([a-z0-9\._]+)@([a-z0-9])+.([a-z]+)(.[a-z]+)?$/
-//   if(regex.text(email)){
-//     alert('valid-email');
-//     return true;
-//   }
-//   else{
-//     alert('kindly use lowercase for email');
-//     return false;
-//   }
-
-// }
