@@ -344,13 +344,14 @@
           like to chat please get in touch.
         </h3>
       </div>
+      <!-- https://formspree.io/f/xrgvbqyj -->
       <div class="form-container">
-        <form action="https://formspree.io/f/xrgvbqyj" method="post" class="form">
+        <form action="/formvalidation.js" name="myform" method="post" class="form" onsubmit=" return validateForm()">
           <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required />
-          <input type="email" name="email" id="email" placeholder="Email address" required />
+          <input type="text" name="email" id="text" placeholder="Email address" required />
           <textarea name="textarea" id="textarea" cols="5" rows="5" placeholder="Enter text here" maxlength="500"
             required></textarea>
-          <button class="form-button">Get in touch</button>
+          <button class="form-button">Get in touch</button><span class="formerror"></span>
         </form>
       </div>
     </section>
