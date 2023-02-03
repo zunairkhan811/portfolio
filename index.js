@@ -31,7 +31,7 @@ const popupArray = [
     id: 'card2',
     Name: 'Profesional Art Printing Data',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featureimage: './images/popupimage.png',
+    featureimage: './images/imageplaceholder1.png',
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     linktoliveversion: '#',
     linktosource: '#',
@@ -91,16 +91,18 @@ const card7 = document.querySelector('#card6');
 
 const cardArray = [card1, card2, card3, card4, card5, card6, card7];
 
-for (let i = 0; i < cardArray.length; i++) {
-  cardArray[i].addEventListener('click', () => {
-    portfolio.classList.toggle('active');
-    navbar.classList.toggle('active');
-    headlinesection.classList.toggle('active');
-    aboutme.classList.toggle('active');
-    contactsection.classList.toggle('active');
-    footercontainer.classList.toggle('active');
+  
     // eslint-disable-next-line no-unused-vars
-    popupArray.forEach((items, index) => {
+cardArray.forEach((carditems, index) => {
+
+       const items = popupArray[index];
+  carditems.addEventListener('click', () => {
+        portfolio.classList.toggle('active');
+        navbar.classList.toggle('active');
+        headlinesection.classList.toggle('active');
+        aboutme.classList.toggle('active');
+        contactsection.classList.toggle('active');
+        footercontainer.classList.toggle('active');
       const container = document.querySelector('.container');
       const section = document.createElement('section');
       container.appendChild(section);
@@ -130,31 +132,7 @@ for (let i = 0; i < cardArray.length; i++) {
         </div>
       </section>
      </div>`;
-      const heading1 = document.querySelector('#pop-up-heading');
-      if (cardArray[i] === card1) {
-        heading1.innerHTML = `${popupArray[0].Name}`;
-      }
-      if (cardArray[i] === card2) {
-        heading1.innerHTML = `${popupArray[1].Name}`;
-      }
-      if (cardArray[i] === card3) {
-        heading1.innerHTML = `${popupArray[2].Name}`;
-      }
-      if (cardArray[i] === card4) {
-        heading1.innerHTML = `${popupArray[3].Name}`;
-      }
-      if (cardArray[i] === card5) {
-        heading1.innerHTML = `${popupArray[4].Name}`;
-      }
-      if (cardArray[i] === card6) {
-        heading1.innerHTML = `${popupArray[5].Name}`;
-      }
-      if (cardArray[i] === card7) {
-        heading1.innerHTML = `${popupArray[6].Name}`;
-      }
-    });
-
-    const popupcontainer = document.querySelector('.pop-up-container');
+     const popupcontainer = document.querySelector('.pop-up-container');
     const closebtn = document.querySelector('.close-btn');
     popupcontainer.classList.toggle('pop-up-active');
 
@@ -171,7 +149,10 @@ for (let i = 0; i < cardArray.length; i++) {
       container.removeChild(container.lastElementChild);
     });
   });
-}
+
+    
+});
+
 
 const portfolioId = document.querySelector('#portfolioicon');
 const aboutId = document.querySelector('#abouticon');
@@ -184,3 +165,17 @@ for (let i = 0; i < sectionsArray.length; i++) {
     rightNavebarId.classList.remove('change-rightnavbar');
   });
 }
+
+// function validateEmail() {
+//   let email = document.querySelector('#text').value;
+//   let regex = /^([a-z0-9\._]+)@([a-z0-9])+.([a-z]+)(.[a-z]+)?$/
+//   if(regex.text(email)){
+//     alert('valid-email');
+//     return true;
+//   }
+//   else{
+//     alert('kindly use lowercase for email');
+//     return false;
+//   }
+
+// }
