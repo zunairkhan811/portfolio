@@ -171,5 +171,5 @@ function validateForm(e) {
     e.stopPropagation();
   }
 }
-let form3 = document.forms['form2']
+const form3 = document.forms.form2;
 form3.addEventListener('submit', validateForm);
