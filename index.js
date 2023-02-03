@@ -91,22 +91,20 @@ const card7 = document.querySelector('#card6');
 
 const cardArray = [card1, card2, card3, card4, card5, card6, card7];
 
-  
-    // eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 cardArray.forEach((carditems, index) => {
-
-       const items = popupArray[index];
+  const items = popupArray[index];
   carditems.addEventListener('click', () => {
-        portfolio.classList.toggle('active');
-        navbar.classList.toggle('active');
-        headlinesection.classList.toggle('active');
-        aboutme.classList.toggle('active');
-        contactsection.classList.toggle('active');
-        footercontainer.classList.toggle('active');
-      const container = document.querySelector('.container');
-      const section = document.createElement('section');
-      container.appendChild(section);
-      section.innerHTML = `<div class="pop-up-container">
+    portfolio.classList.toggle('active');
+    navbar.classList.toggle('active');
+    headlinesection.classList.toggle('active');
+    aboutme.classList.toggle('active');
+    contactsection.classList.toggle('active');
+    footercontainer.classList.toggle('active');
+    const container = document.querySelector('.container');
+    const section = document.createElement('section');
+    container.appendChild(section);
+    section.innerHTML = `<div class="pop-up-container">
       <header class="pop-up-header">
         <div class="pop-up-heading">
           <h2 id="pop-up-heading">${items.Name}</h2>
@@ -132,7 +130,7 @@ cardArray.forEach((carditems, index) => {
         </div>
       </section>
      </div>`;
-     const popupcontainer = document.querySelector('.pop-up-container');
+    const popupcontainer = document.querySelector('.pop-up-container');
     const closebtn = document.querySelector('.close-btn');
     popupcontainer.classList.toggle('pop-up-active');
 
@@ -149,10 +147,7 @@ cardArray.forEach((carditems, index) => {
       container.removeChild(container.lastElementChild);
     });
   });
-
-    
 });
-
 
 const portfolioId = document.querySelector('#portfolioicon');
 const aboutId = document.querySelector('#abouticon');
@@ -166,16 +161,15 @@ for (let i = 0; i < sectionsArray.length; i++) {
   });
 }
 
-// function validateEmail() {
-//   let email = document.querySelector('#text').value;
-//   let regex = /^([a-z0-9\._]+)@([a-z0-9])+.([a-z]+)(.[a-z]+)?$/
-//   if(regex.text(email)){
-//     alert('valid-email');
-//     return true;
-//   }
-//   else{
-//     alert('kindly use lowercase for email');
-//     return false;
-//   }
+function validateForm(e) {
+  const email = document.querySelector('#email');
 
-// }
+  if (email.value !== email.value.toLowerCase()) {
+    document.querySelector('.form-button').style.top = '0rem';
+    document.querySelector('.error').style.visibility = 'visible';
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}
+let form3 = document.forms['form2']
+form3.addEventListener('submit', validateForm);

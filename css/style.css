@@ -923,6 +923,7 @@ html {
 }
 
 .form-button {
+  display: block;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
