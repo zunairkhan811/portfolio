@@ -345,12 +345,13 @@
         </h3>
       </div>
       <div class="form-container">
-        <form action="https://formspree.io/f/xrgvbqyj" method="post" class="form">
+        <!--  -->
+        <form id="form1" action="https://formspree.io/f/xrgvbqyj" method="post" class="form">
           <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required />
           <input type="email" name="email" id="email" placeholder="Email address" required />
           <textarea name="textarea" id="textarea" cols="5" rows="5" placeholder="Enter text here" maxlength="500"
             required></textarea>
-          <button class="form-button">Get in touch</button>
+            <span id="form-btn-span"><button class="form-button">Get in touch</button><span class="error"> Email should be in lower case letter!!</span></span>
         </form>
       </div>
     </section>

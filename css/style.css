@@ -24,6 +24,10 @@ html {
   height: 291.5rem;
 }
 
+.error{
+  visibility: hidden;
+}
+
 .active {
   filter: blur(10px);
   pointer-events: none;
