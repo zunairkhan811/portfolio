@@ -184,10 +184,8 @@ form2.addEventListener('input', () => {
     email: email1.value,
     textareamessage: textarea1.value,
   };
-  // console.log(formData);
   localStorage.setItem('user-data', JSON.stringify(formData));
 });
-//parsing
 const getDataFromLocalStorage = JSON.parse(localStorage.getItem('user-data'));
 name1.value = getDataFromLocalStorage.name;
 email1.value = getDataFromLocalStorage.email;
