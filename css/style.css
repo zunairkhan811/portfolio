@@ -37,7 +37,7 @@ html {
   font-size: 20px;
   padding: 2px;
   color: red;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .pop-up-container {

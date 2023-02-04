@@ -161,18 +161,18 @@ for (let i = 0; i < sectionsArray.length; i++) {
   });
 }
 
-function validateForm(e) {
+function formValidation(e) {
   const email = document.querySelector('#email');
 
   if (email.value !== email.value.toLowerCase()) {
     document.querySelector('.form-button').style.top = '0rem';
-    document.querySelector('.error').style.visibility = 'visible';
+    document.querySelector('.error').innerHTML = `*Email should be in lower case letter!!`;
     e.preventDefault();
     e.stopPropagation();
   }
 }
-const form2 = document.forms.form1;
-form2.addEventListener('submit', validateForm);
+const formId = document.forms.form;
+formId.addEventListener('submit', formValidation);
 
 const name1 = document.getElementById('name');
 const email1 = document.getElementById('email');
@@ -191,7 +191,7 @@ name1.value = getDataFromLocalStorage.name;
 email1.value = getDataFromLocalStorage.email;
 textarea1.value = getDataFromLocalStorage.textareamessage;
 
-form2.addEventListener('input', () => {
+formId.addEventListener('input', () => {
   const formData = {
     name: name1.value,
     email: email1.value,
