@@ -171,5 +171,19 @@ function validateForm(e) {
     e.stopPropagation();
   }
 }
-const form3 = document.forms.form2;
-form3.addEventListener('submit', validateForm);
+const form2 = document.forms.form1;
+form2.addEventListener('submit', validateForm);
+
+const name1 = document.getElementById('name');
+const email1 = document.getElementById('email');
+const textarea1 = document.getElementById('textarea');
+
+form2.addEventListener('input', () => {
+  const formData = {
+    name: name1.value,
+    email: email1.value,
+    textareamessage: textarea1.value,
+  };
+  // console.log(formData);
+  localStorage.setItem('user-data', JSON.stringify(formData));
+});
