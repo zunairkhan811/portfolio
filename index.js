@@ -150,7 +150,7 @@ cardArray.forEach((carditems, index) => {
 });
 
 const portfolioId = document.querySelector('#portfolioicon');
-const aboutId = document.querySelector('.abouticon');
+const aboutId = document.querySelector('#abouticon');
 const contactId = document.querySelector('#contacticon');
 const sectionsArray = [portfolioId, aboutId, contactId];
 for (let i = 0; i < sectionsArray.length; i++) {
