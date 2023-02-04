@@ -30,6 +30,16 @@ html {
   user-select: none;
 }
 
+.error {
+  display: block;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  padding: 2px;
+  color: red;
+  visibility: hidden;
+}
+
 .pop-up-container {
   position: fixed;
   top: 40%;
@@ -923,6 +933,7 @@ html {
 }
 
 .form-button {
+  display: block;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
