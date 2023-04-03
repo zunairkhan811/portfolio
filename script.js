@@ -20,21 +20,21 @@ wrapId.addEventListener('click', () => {
 const popupArray = [
   {
     id: 'card1',
-    Name: 'Multi Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featureimage: './images/popupimage.png',
-    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-    linktoliveversion: '#',
-    linktosource: '#',
+    Name: 'Webly Education Project',
+    description: 'Webly Education is a project to provide online software education to the students by connecting various Software Education experts and students from different countries round the world thereby, creating an innovative change in the society and the countribution in the technology advancement.',
+    featureimage: './images/webdevelopmentprojectscreenshot.png',
+    technologies: ['html', 'CSS', 'Javacript'],
+    linktoliveversion: 'https://zunairkhan811.github.io/Web-development-course-Project/',
+    linktosource: 'https://github.com/zunairkhan811/Web-development-course-Project.git',
   },
   {
     id: 'card2',
-    Name: 'Profesional Art Printing Data',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featureimage: './images/imageplaceholder1.png',
-    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-    linktoliveversion: '#',
-    linktosource: '#',
+    Name: 'Awesome Books Project',
+    description: 'Awesome Books is a project for Book lovers. Bookish people can store the book names and their author in the browser. Add, delete book feature has been added using javascript and thereby storing the collection of books in user browser.',
+    featureimage: './images/awesomebook2.png',
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    linktoliveversion: 'https://zunairkhan811.github.io/Awesome-booksES6-using-modules/#',
+    linktosource: 'https://github.com/zunairkhan811/Awesome-booksES6-using-modules.git',
   },
   {
     id: 'card3',
@@ -166,7 +166,7 @@ function formValidation(e) {
 
   if (email.value !== email.value.toLowerCase()) {
     document.querySelector('.form-button').style.top = '0rem';
-    document.querySelector('.error').innerHTML = `*Email should be in lower case letter!!`;
+    document.querySelector('.error').innerHTML = '*Email should be in lower case letter!!';
     e.preventDefault();
     e.stopPropagation();
   }
