@@ -499,40 +499,58 @@ html {
   width: 32.7rem;
     height: 38.6rem;
   margin: 0.2rem auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/awesomebook2.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/reactbookscreenshot.png) no-repeat;
   background-size: cover;
   position: absolute;
   opacity: 3.3;
   z-index: -1;
 }
 
-.boxes-4,
+.boxes-4{
+  display: flex;
+  flex-direction: column;
+  width: 32.7rem;
+  height: 41.6rem;
+  margin: 0.2rem auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/reactspaceprojectscreenshot.png) no-repeat;
+
+}
+
 .boxes-7 {
   display: flex;
   flex-direction: column;
   width: 32.7rem;
-  height: 38.6rem;
+  height: 41.6rem;
   margin: 0.2rem auto;
-  background: url(../images/imageplaceholder2.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/todoscreenshot.png) no-repeat;
 }
 
-.boxes-5,
+
+
+.boxes-5{
+  display: flex;
+  flex-direction: column;
+  width: 32.7rem;
+  height: 41.6rem;
+  margin: 0.2rem auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/javascriptproject.png) no-repeat;
+}
 .boxes-8 {
   display: flex;
   flex-direction: column;
   width: 32.7rem;
-  height: 38.6rem;
+  height: 42.6rem;
   margin: 0.2rem auto;
-  background: url(../images/imageplaceholder3.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/webdevelopmentprojectscreenshot.png) no-repeat;
 }
 
 .boxes-6 {
   display: flex;
   flex-direction: column;
   width: 32.7rem;
-  height: 38.6rem;
+  height: 42.6rem;
   margin: 0.2rem auto;
-  background: url(../images/maskgroup.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/calculatorscreenshot.png) no-repeat;
 }
 
 .text-box {

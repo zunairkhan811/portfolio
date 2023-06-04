@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Zunair-Desktop-Responsive-Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 
 
-**[Zunair-Desktop-Responsive-Portfolio]** is a project of making a portfolio website to showcase 
+**[Portfolio]** is a project of making a portfolio website to showcase 
 my skills to  employers that i can make a responsive website using html, css and Javascript.
 
 
@@ -70,7 +70,7 @@ This project has been made using html and css only according to project requirem
 
 <!-- Note: Right now Application hasn't been Deployed yet. In future if this will be deployed,
 Deployed Link will update here -->
-- [Live Demo Link]  <a href="https://zunairkhan811.github.io/Zunair-Desktop-Responsive-Portfolio/"><button type="button" color:red background: white>Visit Site</button></a>
+- [Live]  <a href="https://zunairkhan811.github.io/portfolio/"><button type="button" color:red background: white>Visit Site</button></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:/zunairkhan811/Zunair-Desktop-Responsive-Portfolio.git
+  git clone git@github.com:/zunairkhan811/portfolio.git
 ```
 
 
@@ -120,10 +120,6 @@ To run the project, execute the following command:
 
 --> Click on live Link or Click on live server in Vs Studio.
 
-
-### Run tests
-
-To run tests, run the following command:
 
 <!--
 In order to run for linter errors, you will have to create a pull request
