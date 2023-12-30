@@ -31,9 +31,6 @@
 my skills to  employers that i can make a responsive website using html, css and Javascript.
 
 
-- [Video Link about Project] <a href="https://www.loom.com/share/3b6c4b0bef504bdc9a970238c2a1de3a"><button type="button" color:red background: white>Click Here</button></a>
-
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -61,6 +58,7 @@ This project has been made using html and css only according to project requirem
 - **[About_Section_is_Designed]**
 - **[Contact_Section_is_Designed]**
 - **[Responsive_Portfolio_version_is_Made]**
+- **[Javascript_is_Used]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,9 +150,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Will_try_update_html_file]**
-- [ ] **[Will_try_to_update_css_file]**
-- [ ] **[will_make_javascript_file]**
+- [ ] **[Will add more feature projects]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
