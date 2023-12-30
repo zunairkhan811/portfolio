@@ -360,6 +360,7 @@ html {
   width: 90%;
   margin: auto 6rem;
   height: 150.5rem;
+  z-index: -3;
 }
 
 .my-recentwork-container {
