@@ -10,6 +10,16 @@ const footercontainer = document.querySelector('.footer-container');
 const logoId = document.querySelector('#logo');
 const wrapId = document.querySelector('#wrap');
 const rightNavebarId = document.querySelector('#right-navbar');
+const downloadResume = document.querySelector('#downloadResume')
+
+downloadResume.addEventListener('click', ()=>{
+  let link = document.createElement('a');
+  link.href = './zunairResume.pdf';
+  link.download = 'zunairResume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+})
 
 wrapId.addEventListener('click', () => {
   wrapId.classList.toggle('change-wrap');
