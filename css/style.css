@@ -500,7 +500,7 @@ html {
   width: 32.7rem;
     height: 38.6rem;
   margin: 0.2rem auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/reactbookscreenshot.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/budgetapplogo.png) no-repeat;
   background-size: cover;
   position: absolute;
   opacity: 3.3;
@@ -513,7 +513,7 @@ html {
   width: 32.7rem;
   height: 41.6rem;
   margin: 0.2rem auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/reactspaceprojectscreenshot.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/foodrecipescreenshot.png) no-repeat;
 
 }
 
@@ -534,7 +534,7 @@ html {
   width: 32.7rem;
   height: 41.6rem;
   margin: 0.2rem auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/javascriptproject.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/react-stocks-screenshot.png) no-repeat;
 }
 .boxes-8 {
   display: flex;
@@ -551,7 +551,7 @@ html {
   width: 32.7rem;
   height: 42.6rem;
   margin: 0.2rem auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/calculatorscreenshot.png) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/reactspaceprojectscreenshot.png) no-repeat;
 }
 
 .text-box {
@@ -574,8 +574,8 @@ html {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.57rem;
+  line-height: 2.8rem;
   color: #fff;
   margin: 0.4rem 0.7rem;
 }
