@@ -88,7 +88,7 @@ const popupArray = [
     description: 'Hi! This is the project made for Education purpose by connecting tutors and students around the world to get education remotely.',
     featureimage: './images/webdevelopmentprojectscreenshot.png',
     technologies: ['HTML-CSS', 'Bootstrap', 'Javascript'],
-    linktoliveversion: '#',
+    linktoliveversion: 'https://zunairkhan811.github.io/Web-development-course-Project/',
     linktosource: 'https://github.com/zunairkhan811/Web-development-course-Project.git',
   }];
 
