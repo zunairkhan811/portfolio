@@ -12,11 +12,9 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["eslint-config-react-app", "plugin:react-hooks/recommended"],
+  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "plugins": ["react"],
   "rules": {
-    // Disable the conflicting rule from eslint-config-airbnb
-    "react/jsx-a11y/accessible-emoji": "off",
-    // Add any other overrides or custom rules here
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
@@ -24,13 +22,14 @@
   },
   "overrides": [
     {
+       // feel free to replace with your preferred file pattern - eg. 'src/**/*Slice.js' or 'redux/**/*Slice.js'
       "files": ["src/**/*Slice.js"],
+      // avoid state param assignment
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
   ],
   "ignorePatterns": [
     "dist/",
-    "build/",
-    "src/"
+    "build/"
   ]
 }

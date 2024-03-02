@@ -1,17 +1,18 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
-import { Main, BlogPage, ProjectPage } from './pages'
-import { BackToTop } from './components'
-import ScrollToTop from './utils/ScrollToTop'
+import {
+  Route, BrowserRouter as Router, Routes, useNavigate,
+} from 'react-router-dom';
+import { BlogPage, Main, ProjectPage } from './pages';
+import { BackToTop } from './components';
+import ScrollToTop from './utils/ScrollToTop';
 
-import './App.css'
+import './App.css';
 
 function App() {
-
   return (
     <div className="app">
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/blog" element={<BlogPage />} />
@@ -26,9 +27,12 @@ function App() {
 
 function NotFound() {
   const navigate = useNavigate();
-  React.useEffect(() => {
-    navigate('/');
-  }, [navigate]);
+  React.useEffect(
+    () => {
+      navigate('/');
+    },
+    [navigate],
+  );
 
   return null;
 }
