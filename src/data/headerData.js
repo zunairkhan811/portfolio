@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/zunairresume.pdf';
+import resume from '../assets/pdf/zunairResume.pdf';
 import image from '../assets/img/zunivisaphotoimg.jpg';
 
 export const headerData = {
