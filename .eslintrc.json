@@ -4,24 +4,33 @@
     "es6": true,
     "jest": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base"],
+  "extends": ["eslint-config-react-app", "plugin:react-hooks/recommended"],
   "rules": {
-    "no-shadow": "off",
-    "no-param-reassign": "off",
-    "eol-last": "off",
-    "no-unused-vars": ["error", { "caughtErrors": "none"}],
-    "import/extensions": [ 1, {
-      "js": "always", "json": "always"
-    }]
+    // Disable the conflicting rule from eslint-config-airbnb
+    "react/jsx-a11y/accessible-emoji": "off",
+    // Add any other overrides or custom rules here
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
   },
+  "overrides": [
+    {
+      "files": ["src/**/*Slice.js"],
+      "rules": { "no-param-reassign": ["error", { "props": false }] }
+    }
+  ],
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "src/"
   ]
-  
 }

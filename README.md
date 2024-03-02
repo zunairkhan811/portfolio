@@ -27,25 +27,17 @@
 
 
 
-**[Portfolio]** is a project of making a portfolio website to showcase 
-my skills to  employers that i can make a responsive website using html, css and Javascript.
+**[Portfolio]** is a project which shows my Technical as well as professional skills.
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-This project has been made using html and css only according to project requirements.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://html.com/">html.com</a></li>
-    <li><a href="https://www.w3.org/TR/html401/present/styles.html">w3.org</a></li>
-  </ul>
-</details>
-
-
+- HTML
+- Css
+- React
+- Javascript
 
 <!-- Features -->
 
@@ -58,7 +50,6 @@ This project has been made using html and css only according to project requirem
 - **[About_Section_is_Designed]**
 - **[Contact_Section_is_Designed]**
 - **[Responsive_Portfolio_version_is_Made]**
-- **[Javascript_is_Used]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,31 +83,16 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+In order to run this project you need:
 
+- Clone the Repo using ` git clone https://github.com/zunairkhan811/portfolio`
 
-Example commands:
+- Open code in VsStudio
 
-```sh
-  cd my-folder
-  git clone git@github.com:/zunairkhan811/portfolio.git
-```
+- Run `npm install` in terminal
 
+- Then Run `npm start`
 
-### Install
-
-Install this project with:
-
-
---> Visual Studio Code
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
---> Click on live Link or Click on live server in Vs Studio.
 
 
 <!--
@@ -142,6 +118,7 @@ You can deploy this project using:
 👤 **Author**
 
 - GitHub: [@zunairkhan811](https://github.com/zunairkhan811)
+- LinkedIn: [mzunairkhan](https://www.linkedin.com/in/mzunairkhan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +165,7 @@ I would like to thank Microverse for inspiring me enough to make this project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./license.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,29 +1,61 @@
 {
-  "name": "zunair-desktop-responsive-portfolio",
-  "version": "1.0.0",
-  "description": "<!-- TABLE OF CONTENTS -->",
-  "main": "index.js",
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://richie1988.github.io/My_PORTFOLIO_SITE",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^1.6.7",
+    "react": "^16.14.0",
+    "react-awesome-reveal": "^4.2.8",
+    "react-dom": "^16.14.0",
+    "react-fast-marquee": "^1.6.4",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.0.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.22.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.1",
+    "slick-carousel": "^1.8.1",
+    "validator": "^13.11.0",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "Zunair",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/zunairkhan811/Zunair-Desktop-Responsive-Portfolio#readme",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.27.5",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "file-loader": "^6.2.0",
+    "fs-extra": "^11.2.0",
+    "gh-pages": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "image-webpack-loader": "^8.1.0"
   }
 }
