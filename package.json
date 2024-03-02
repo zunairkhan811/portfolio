@@ -1,7 +1,7 @@
-{
+{ 
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://richie1988.github.io/My_PORTFOLIO_SITE",
+  "homepage": "https://github.com/zunairkhan811/portfolio",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
