@@ -8,24 +8,6 @@ export const blogData = [
     url: 'https://medium.com/@zunairkhan811/from-electrical-engineer-to-developer-what-i-have-learned-and-how-it-can-help-you-become-a-better-1fe911d5ef11',
   },
 
-  /*
-     * {
-     *     Id: 2,
-     *     Title: 'Math Magician App',
-     *     Description: "Experience of the second project. The mathematics Calculator put your calculation in place dont miss a single count on this App.",
-     *     Date: 'Jan 23, 2023',
-     *     Image: two,
-     *     Url: "https://richard-math-app.onrender.com/"
-     * },
-     * {
-     *     Id: 3,
-     *     Title: 'My Bookstore App',
-     *     Description: "This is the Bookstore App that allows its users to read books to add books and to save there favourites books this app its easy to use and UI.",
-     *     Date: 'July 12, 2023',
-     *     Image: three,
-     *     Url: "https://richie1988.github.io/My_Bookstore_App/"
-     * },
-     */
 
 ];
 
